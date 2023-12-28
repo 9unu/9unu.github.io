@@ -13,7 +13,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/경기도.png',
             link: 'https://github.com/9unu/Gyeonggi-do-Self-Driving-Center-Data-Utilization-Competition',
-            title: '[Data Utilization Competition]---- Traffic congestion classification',
+            title: '[Data Utilization Competi tion] Traffic congestion classification',
             // demo: false,
             technologies: ['Python'],
             description: "경기도 자율주행센터 데이터 활용 경진대회 [금상] - 도로별 교통 혼잡도 분류",
@@ -36,7 +36,7 @@ let render_projects = (slug) => {
             title: 'fat prediction model (Normal, Overweight, Obesity)',
             // demo: false,
             technologies: ['Python'],
-            description: "국민건강영양조사 원시자료를 분석해 비만을 예측하는 머신러닝 모델 설계",
+            description: "국민건강영양조사 데이터 기반 비만도 분류 머신러닝 모델 개발",
             categories: ['featured','security']
         },        
         {
@@ -63,7 +63,7 @@ let render_projects = (slug) => {
             title: '[coupang] Hypothesis Testing of Chicken Breast Price',
             // demo: false,
             technologies: ['Python'],
-            description: "쿠팡의 닭가슴살 제품 데이터를 수집해 가격과 관련된 여러 가지가설 검정",
+            description: "쿠팡의 닭가슴살 제품 가격과 관련된 여러 가지 가설 검정",
             categories: ['security']
         },
         {
