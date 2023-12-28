@@ -33,7 +33,7 @@
  */
 
 .card {
-	background-color: #ffffff00;
+	background-color: #fff;
 	margin-bottom: 1.6rem;
 	box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24);
 }
@@ -147,4 +147,22 @@
 #project-image:focus,
 #project-image:hover {
 	transform: scale(1.1);
+}
+
+.pdf-button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pdf-button:hover {
+    background-color: #2980b9;
 }
