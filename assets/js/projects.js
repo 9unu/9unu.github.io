@@ -11,13 +11,22 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/파이썬으로 시작하는 캐글.jpg',
-            link: 'https://github.com/9unu/Kaggle_titanic',
-            title: '[kaggle] Titanic',
-            // demo:  false,
+            image: 'assets/images/경기도.png',
+            link: 'https://github.com/9unu/Gyeonggi-do-Self-Driving-Center-Data-Utilization-Competition',
+            title: '[Data Utilization Competition] Traffic congestion classification by road',
+            // demo: false,
             technologies: ['Python'],
-            description: "\"파이썬으로 시작하는 캐글\" 책을 따라 Titanic 문제 풀이",
-            categories: ['diy']
+            description: "경기도 자율주행센터 데이터 활용 경진대회 [금상] - 도로별 교통 혼잡도 분류",
+            categories: ['featured','native']
+        },
+        {
+            image: 'assets/images/한국정보과학회.png',
+            link: 'https://github.com/9unu/Short_form_video_watching_pattern_and_a_predictive_model',
+            title: '[KSC] A study of Short-Form Video Watching Patterns and a Predictive Model',
+            // demo: false,
+            technologies: ['Python'],
+            description: "[한국정보과학회] Short-From 영상 시청 패턴 분석 및 영상 시청 여부 예측 연구",
+            categories: ['featured','webdev']
         },
         {
             image: 'assets/images/fat.jpg',
@@ -26,7 +35,16 @@ let render_projects = (slug) => {
             // demo: false,
             technologies: ['Python'],
             description: "국민건강영양조사 원시자료를 분석해 비만을 예측하는 머신러닝 모델 설계",
-            categories: ['security']
+            categories: ['featured','security']
+        },        
+        {
+            image: 'assets/images/파이썬으로 시작하는 캐글.jpg',
+            link: 'https://github.com/9unu/Kaggle_titanic',
+            title: '[kaggle] Titanic',
+            // demo:  false,
+            technologies: ['Python'],
+            description: "\"파이썬으로 시작하는 캐글\" 필사 (Titanic 문제 풀이)",
+            categories: ['diy']
         },
         {
             image: 'assets/images/housing-costs-story.jpg',
@@ -35,15 +53,6 @@ let render_projects = (slug) => {
             // demo: false,
             technologies: ['Python'],
             description: "캐글의 boston house price 예측 문제 풀이_XGBoost",
-            categories: ['diy']
-        },
-        {
-            image: 'assets/images/html+css+javascript.jpg',
-            link: 'https://github.com/9unu/html-css-JavaScript',
-            title: 'html+css+javascript study',
-            // demo:  false,
-            technologies: ['HTML', 'CSS', 'Jacascript'],
-            description: "\"생활코딩! HTML+CSS+자바스크립트\" 필사 + 자체 시작페이지 제작",
             categories: ['diy']
         },
         {
@@ -56,22 +65,13 @@ let render_projects = (slug) => {
             categories: ['security']
         },
         {
-            image: 'assets/images/한국정보과학회.png',
-            link: 'https://github.com/9unu/Short_form_video_watching_pattern_and_a_predictive_model',
-            title: '[KSC] A study of Short-Form Video Watching Patterns and a Predictive Model',
-            // demo: false,
-            technologies: ['Python'],
-            description: "[한국정보과학회] Short-From 영상 시청 패턴 분석 및 영상 시청 여부 예측 연구",
-            categories: ['featured','webdev']
-        },
-        {
-            image: 'assets/images/경기도.png',
-            link: 'https://github.com/9unu/Gyeonggi-do-Self-Driving-Center-Data-Utilization-Competition',
-            title: '[Gyeonggi-do Self-Driving Center Data Utilization Competition] Traffic congestion classification by road ',
-            // demo: false,
-            technologies: ['Python'],
-            description: "경기도 자율주행센터 데이터 활용 경진대회 [금상] - 도로별 교통 혼잡도 분류",
-            categories: ['featured','native']
+            image: 'assets/images/html+css+javascript.jpg',
+            link: 'https://github.com/9unu/html-css-JavaScript',
+            title: 'html+css+javascript study',
+            // demo:  false,
+            technologies: ['HTML', 'CSS', 'Jacascript'],
+            description: "\"생활코딩! HTML+CSS+자바스크립트\" 필사 + 자체 시작페이지 제작",
+            categories: ['diy']
         }
     ]
 
