@@ -17,7 +17,9 @@ let render_projects = (slug) => {
             // demo: false,
             technologies: ['Python'],
             description: "경기도 자율주행센터 데이터 활용 경진대회 [금상] - 도로별 교통 혼잡도 분류",
-            categories: ['featured','native']
+            categories: ['featured','native'],
+            pdf: 'assets/images/최종보고서.pdf' // Add the PDF link here
+
         },
         {
             image: 'assets/images/한국정보과학회.png',
@@ -91,13 +93,13 @@ let project_mapper = project => {
                 
             <div class="card radius shadowDepth1">
 
-                ${project.image ? 
+                ${project.image ?
                     `<div class="card__image border-tlr-radius">
                         <a href="${project.link}">
                             <img src="${project.image}" alt="image" id="project-image" class="border-tlr-radius">
                         </a>
-                    </div>`           
-                : ''}
+                    </div>`
+                :''}
 
         
                 <div class="card__content card__padding">
@@ -105,7 +107,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">Demo</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">Demo</a>` : ''} ${project.pdf ? `<a href="${project.pdf}" target="_blank">PDF</a>` : ''}</p>
                     </article>
 
                                 
@@ -118,7 +120,7 @@ let project_mapper = project => {
                 </div>
             </div>
         </div>
-    `
+    `;
 }
 
 let selected = (slug) => {
