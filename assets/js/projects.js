@@ -13,17 +13,17 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/경기도.png',
             link: 'https://github.com/9unu/Gyeonggi-do-Self-Driving-Center-Data-Utilization-Competition',
-            title: '[Data Utilization Competi tion] Traffic congestion classification',
+            title: '[Data Science Competition] Traffic congestion classification',
             // demo: false,
             technologies: ['Python'],
-            description: "경기도 자율주행센터 데이터 활용 경진대회 [금상] - 도로별 교통 혼잡도 분류",
+            description: "경기도 자율주행센터 데이터 활용 경진대회 - 도로별 교통 혼잡도 분류 [금상]",
             categories: ['featured','native'],
             pdf: 'assets/images/last_report.pdf' // Add the PDF link here
         },
         {
             image: 'assets/images/한국정보과학회.png',
             link: 'https://github.com/9unu/Short_form_video_watching_pattern_and_a_predictive_model',
-            title: '[KSC] A study of Short-Form Video Watching Patterns and a Predictive Model',
+            title: '[KSC] A Study of Short-Form Video Watching Patterns and a Predictive Model',
             // demo: false,
             technologies: ['Python'],
             description: "[한국정보과학회] Short-From 영상 시청 패턴 분석 및 영상 시청 여부 예측 연구",
@@ -33,7 +33,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/fat.jpg',
             link: 'https://github.com/9unu/3-1-project_Remaster',
-            title: 'fat prediction model (Normal, Overweight, Obesity)',
+            title: 'Fat Prediction Model (Normal, Overweight, Obesity)',
             // demo: false,
             technologies: ['Python'],
             description: "국민건강영양조사 데이터 기반 비만도 분류 머신러닝 모델 개발",
@@ -42,7 +42,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/파이썬으로 시작하는 캐글.jpg',
             link: 'https://github.com/9unu/Kaggle_titanic',
-            title: '[kaggle] Titanic',
+            title: '[Kaggle] Titanic',
             // demo:  false,
             technologies: ['Python'],
             description: "\"파이썬으로 시작하는 캐글\" 필사 (Titanic 문제 풀이)",
@@ -51,7 +51,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/housing-costs-story.jpg',
             link: 'https://github.com/9unu/Kaggle_BostonHousePrices',
-            title: '[kaggle] Boston House Price',
+            title: '[Kaggle] Boston House Price',
             // demo: false,
             technologies: ['Python'],
             description: "캐글의 boston house price 예측 문제 풀이_XGBoost",
