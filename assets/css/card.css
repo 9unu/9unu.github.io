@@ -45,11 +45,11 @@
  
 .card__image {
 	min-height: 100px;
-    background-color: #eee;
+    background-color: black;
     width: 100%;
     max-height: 180px;
 	overflow: hidden;
-	border-bottom: solid 1px #eee;
+	border-bottom: solid 1px lightgray;
 }
 
 .card__content {
