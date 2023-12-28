@@ -46,7 +46,7 @@ let render_projects = (slug) => {
             // demo:  false,
             technologies: ['Python'],
             description: "\"파이썬으로 시작하는 캐글\" 필사 (Titanic 문제 풀이)",
-            categories: ['diy']
+            categories: ['security']
         },
         {
             image: 'assets/images/housing-costs-story.jpg',
@@ -55,7 +55,7 @@ let render_projects = (slug) => {
             // demo: false,
             technologies: ['Python'],
             description: "캐글의 boston house price 예측 문제 풀이_XGBoost",
-            categories: ['diy']
+            categories: ['security']
         },
         {
             image: 'assets/images/coupang.png',
@@ -73,7 +73,7 @@ let render_projects = (slug) => {
             // demo:  false,
             technologies: ['HTML', 'CSS', 'Jacascript'],
             description: "\"생활코딩! HTML+CSS+자바스크립트\" 필사 + 자체 시작페이지 제작",
-            categories: ['diy']
+            categories: ['security']
         }
     ]
 
