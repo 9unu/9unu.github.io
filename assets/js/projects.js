@@ -13,7 +13,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/경기도.png',
             link: 'https://github.com/9unu/Gyeonggi-do-Self-Driving-Center-Data-Utilization-Competition',
-            title: '[Data Utilization Competition]          Traffic congestion classification by road',
+            title: '[Data Utilization Competition] -----Traffic congestion classification by road',
             // demo: false,
             technologies: ['Python'],
             description: "경기도 자율주행센터 데이터 활용 경진대회 [금상] - 도로별 교통 혼잡도 분류",
