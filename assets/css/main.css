@@ -478,6 +478,24 @@ a {
   margin-right: 0px;
 }
 
+.pdf-button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pdf-button:hover {
+  background-color: #2980b9;
+}
+
 /* Here follow all the media queries */
 @media screen and (max-width: 850px) {
 
@@ -579,3 +597,4 @@ a {
     bottom: 15px;
   }
 }
+

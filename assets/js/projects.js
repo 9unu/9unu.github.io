@@ -111,6 +111,7 @@ let project_mapper = project => {
 
                                 
                     <div class="card__meta">
+                        ${project.pdf ? `<button class="pdf-button" onclick="window.open('${project.pdf}', '_blank')">PDF</button>` : ''}
                         ${project.technologies.map(tech =>
                             `<span class="project-technology paragraph-text-normal">${tech}</span>`
                         ).join('')}
