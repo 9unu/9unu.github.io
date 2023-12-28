@@ -1,0 +1,21 @@
+title: GeonWoo Park
+description: Data Analyst
+site_title: '9unu_Website'
+
+# Build settings
+markdown: kramdown
+exclude: [vendor/ruby]
+
+# Personalization
+github_username: 9unu
+blog_url: https://9unu.tistory.com/
+email: gw.park@khu.ac.kr
+keybase_username: 9unu
+twitter_username: 9unu
+reddit_username: 9unu
+
+# absolute or relative
+profile_picture: assets/images/userPhoto_circle.png
+
+# Google Analytics ID
+google_analytics: 
