@@ -16,7 +16,7 @@ let render_projects = (slug) => {
             title: '[Data Utilization Competi tion] Traffic congestion classification',
             // demo: false,
             technologies: ['Python'],
-            description: "경기도 자율주행센터 데이터 활용 경진대회 [금상] - 도로별 교통 혼잡도 분류",
+            description: "경기도 자율주행센터 데이터 활용 경진대회 - 도로별 교통 혼잡도 분류 [금상]",
             categories: ['featured','native'],
             pdf: 'assets/images/last_report.pdf' // Add the PDF link here
         },
