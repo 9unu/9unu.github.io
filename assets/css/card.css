@@ -33,7 +33,7 @@
  */
 
 .card {
-	background-color: #fff;
+	background-color: #ffffff00;
 	margin-bottom: 1.6rem;
 	box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24);
 }
@@ -45,7 +45,7 @@
  
 .card__image {
 	min-height: 100px;
-    background-color: black;
+    background-color: #eee;
     width: 100%;
     max-height: 180px;
 	overflow: hidden;
