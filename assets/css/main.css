@@ -254,7 +254,7 @@ img {
 }
 
 
-.projects-grid {
+/* .projects-grid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto;
@@ -265,6 +265,11 @@ img {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+} */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the min and max width of each grid item */
+  grid-gap: 20px; /* Adjust the gap between grid items */
 }
 
 .footer {
