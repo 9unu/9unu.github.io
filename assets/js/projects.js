@@ -31,7 +31,7 @@ let render_projects = (slug) => {
             pdf: 'assets/images/Short-Form 논문1.pdf' // Add the PDF link here
         },
         {
-            image: 'assets/images/fat.png',
+            image: 'assets/images/배경.png',
             link: 'https://github.com/9unu/3-1-project_Remaster',
             title: 'Fat Prediction Model (Normal, Overweight, Obesity)',
             // demo: false,
