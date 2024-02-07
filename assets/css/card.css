@@ -229,7 +229,7 @@
 	.card__image {
 		/* min-height: 50px; Minimum height 100 pixels */
 		background-color: white; /* background color white for image side */
-		width: 100px; /* Set width of the image */
+		width: 130px; /* Set width of the image */
 		overflow: hidden; /* Hide overflow */
 		border-right: solid 1px white; /* right border */
 		/* margin-right: 1.6rem; Add margin to the right to create space between image and content */
