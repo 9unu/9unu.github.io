@@ -1,5 +1,6 @@
 .wrapper {
     max-width: 800px;
+	min-width: 800px;
     display: flex;
     /* flex-wrap: wrap; */ /* Remove this line */
     justify-content: space-between;
@@ -75,7 +76,7 @@
 }
 
 .card__article a:hover {
-	color: #2980b9; /* 호버 시 글자색 변경 */
+	color: #2980b9; /* 커서 올리면 글자색 변경 */
 }
 
 /* blog cards */
