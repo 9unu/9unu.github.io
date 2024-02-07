@@ -67,7 +67,7 @@ let render_projects = (slug) => {
             categories: ['security']
         },
         {
-            image: 'assets/images/html+css+javascript.jpg',
+            image: 'assets/images/html+css+javascript.png',
             link: 'https://github.com/9unu/html-css-JavaScript',
             title: 'html+css+javascript study',
             // demo:  false,
