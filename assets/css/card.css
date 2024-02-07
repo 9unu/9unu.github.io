@@ -36,10 +36,13 @@
  */
 
  .card {
-    background-color: #ffffff00; /* background color light gray for the whole card */
+    background-color: #ffffff; /* background color white */
+    margin: 0 auto; /* Center the card horizontally */
     margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
-    box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow */
     display: flex; /* Use flexbox to control layout */
+    border-radius: 8px; /* Corner radius for rounded corners */
+    max-width: 800px; /* Set maximum width */
 }
 
 .card__padding {
@@ -54,8 +57,6 @@
     overflow: hidden; /* Hide overflow */
     border-right: solid 1px white; /* right border */
     /* margin-right: 1.6rem; Add margin to the right to create space between image and content */
-
-
 }
 
 .card__content {
