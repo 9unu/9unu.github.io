@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/경기도.png',
+            image: 'assets/images/2.png',
             link: 'https://github.com/9unu/Gyeonggi-do-Self-Driving-Center-Data-Utilization-Competition',
             title: '[Data Science Competition] Traffic congestion classification',
             // demo: false,
