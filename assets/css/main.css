@@ -303,7 +303,7 @@ img {
 }
 
 .project-card {
-  padding: 0px;
+  padding: 10px;
   -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
   color: #222;
@@ -341,7 +341,7 @@ img {
 .project-tag-item {
   background-color: #444;
   border-radius: 3px;
-  padding: 0px;
+  padding: 5px;
   color: #fff;
 }
 
