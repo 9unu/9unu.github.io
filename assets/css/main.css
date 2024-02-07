@@ -508,9 +508,33 @@ a {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .projects-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
 }
 
 @media screen and (max-width: 775px) {
+  .projects-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
   .project-technologies {
     -ms-grid-columns: auto auto auto;
         grid-template-columns: auto auto auto;
@@ -559,11 +583,23 @@ a {
     font-size: 0.9rem;
     top: 3rem;
   }
-  
+  .projects-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
   .projects-grid {
     -ms-grid-columns: auto;
         grid-template-columns: auto;
   }
+  
 
   .projects-wrapper {
     display: -ms-grid;
@@ -581,6 +617,18 @@ a {
   .head {
     min-height: 525px;
   }
+  .projects-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -589,6 +637,18 @@ a {
         grid-template-columns: auto auto;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+  }
+  .projects-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 }
 
@@ -600,6 +660,18 @@ a {
 
   .head-menu-wrap {
     bottom: 15px;
+  }
+  .projects-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 }
 
