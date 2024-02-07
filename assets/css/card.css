@@ -37,7 +37,7 @@
 
  .card {
     background-color: #ffffff00; /* background color light gray for the whole card */
-    margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
+    /* margin-bottom: 1.6rem; Bottom margin 1.6rem */
     box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
     display: flex; /* Use flexbox to control layout */
 }
