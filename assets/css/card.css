@@ -58,12 +58,6 @@
     border-right: solid 1px white; /* right border */
     /* margin-right: 1.6rem; Add margin to the right to create space between image and content */
 }
-.card__image img {
-    position: absolute; /* Position the image absolutely */
-    top: 50%; /* Move the image down by 50% of the container's height */
-    left: 50%; /* Move the image right by 50% of the container's width */
-    transform: translate(-50%, -90px); /* Translate the image back by half its own height and 90 pixels up */
-}
 
 .card__content {
     position: relative; /* relative position */
