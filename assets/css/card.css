@@ -1,13 +1,12 @@
 .wrapper {
     max-width: 90%;
-	min-width: 90%;
-    display: flex;
+    /* display: flex; */
     /* flex-wrap: wrap; */ /* Remove this line */
-    justify-content: space-between;
-    align-items: center; /* Add this line */
+    /* justify-content: space-between; */
+    /* align-items: center; Add this line */
     padding-left: 1em;
     padding-right: 1em;
-    margin: 50px auto;
+    /* margin: 50px auto; */
 }
 /*
  * Helpers
@@ -161,15 +160,10 @@
 /* Here follow all the media queries */
 @media screen and (max-width: 850px) {
 	.wrapper {
-		max-width: 300px;
-		min-width: 300px;
-		display: flex;
-		/* flex-wrap: wrap; */ /* Remove this line */
-		justify-content: space-between;
-		align-items: center; /* Add this line */
-		padding-left: 1em;
-		padding-right: 1em;
-		margin: 50px auto;
+		max-width: 400px; /* 최대 너비 400픽셀 */
+		/* margin: 50px auto; */ /* 주석 처리: 상하 여백 50픽셀, 가운데 정렬 */
+		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
+		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
 
 
@@ -177,30 +171,20 @@
   
   @media screen and (max-width: 775px) {
 	.wrapper {
-		max-width: 300px;
-		min-width: 300px;
-		display: flex;
-		/* flex-wrap: wrap; */ /* Remove this line */
-		justify-content: space-between;
-		align-items: center; /* Add this line */
-		padding-left: 1em;
-		padding-right: 1em;
-		margin: 50px auto;
+		max-width: 400px; /* 최대 너비 400픽셀 */
+		/* margin: 50px auto; */ /* 주석 처리: 상하 여백 50픽셀, 가운데 정렬 */
+		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
+		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
 
   }
   
   @media screen and (max-width: 600px) {
 	.wrapper {
-		max-width: 300px;
-		min-width: 300px;
-		display: flex;
-		/* flex-wrap: wrap; */ /* Remove this line */
-		justify-content: space-between;
-		align-items: center; /* Add this line */
-		padding-left: 1em;
-		padding-right: 1em;
-		margin: 50px auto;
+		max-width: 400px; /* 최대 너비 400픽셀 */
+		/* margin: 50px auto; */ /* 주석 처리: 상하 여백 50픽셀, 가운데 정렬 */
+		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
+		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
   
 
@@ -208,45 +192,30 @@
   
   @media screen and (max-height: 450px) and (max-width: 600px) {
 	.wrapper {
-		max-width: 300px;
-		min-width: 300px;
-		display: flex;
-		/* flex-wrap: wrap; */ /* Remove this line */
-		justify-content: space-between;
-		align-items: center; /* Add this line */
-		padding-left: 1em;
-		padding-right: 1em;
-		margin: 50px auto;
+		max-width: 400px; /* 최대 너비 400픽셀 */
+		/* margin: 50px auto; */ /* 주석 처리: 상하 여백 50픽셀, 가운데 정렬 */
+		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
+		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
 
   }
   
   @media screen and (max-width: 400px) {
 	.wrapper {
-		max-width: 300px;
-		min-width: 300px;
-		display: flex;
-		/* flex-wrap: wrap; */ /* Remove this line */
-		justify-content: space-between;
-		align-items: center; /* Add this line */
-		padding-left: 1em;
-		padding-right: 1em;
-		margin: 50px auto;
+		max-width: 400px; /* 최대 너비 400픽셀 */
+		/* margin: 50px auto; */ /* 주석 처리: 상하 여백 50픽셀, 가운데 정렬 */
+		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
+		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
 
   }
   
   @media screen and (max-height: 525px) {
 	.wrapper {
-		max-width: 300px;
-		min-width: 300px;
-		display: flex;
-		/* flex-wrap: wrap; */ /* Remove this line */
-		justify-content: space-between;
-		align-items: center; /* Add this line */
-		padding-left: 1em;
-		padding-right: 1em;
-		margin: 50px auto;
+		max-width: 400px; /* 최대 너비 400픽셀 */
+		/* margin: 50px auto; */ /* 주석 처리: 상하 여백 50픽셀, 가운데 정렬 */
+		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
+		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
 
   }
