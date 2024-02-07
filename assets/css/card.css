@@ -155,3 +155,98 @@
 #project-image:hover {
 	transform: scale(1.1); /* 호버 시 크기 변경 */
 }
+
+
+
+/* Here follow all the media queries */
+@media screen and (max-width: 850px) {
+	.wrapper {
+		max-width: 300px;
+		min-width: 300px;
+		display: flex;
+		/* flex-wrap: wrap; */ /* Remove this line */
+		justify-content: space-between;
+		align-items: center; /* Add this line */
+		padding-left: 1em;
+		padding-right: 1em;
+		margin: 50px auto;
+	}
+
+
+  }
+  
+  @media screen and (max-width: 775px) {
+	.wrapper {
+		max-width: 300px;
+		min-width: 300px;
+		display: flex;
+		/* flex-wrap: wrap; */ /* Remove this line */
+		justify-content: space-between;
+		align-items: center; /* Add this line */
+		padding-left: 1em;
+		padding-right: 1em;
+		margin: 50px auto;
+	}
+
+  }
+  
+  @media screen and (max-width: 600px) {
+	.wrapper {
+		max-width: 300px;
+		min-width: 300px;
+		display: flex;
+		/* flex-wrap: wrap; */ /* Remove this line */
+		justify-content: space-between;
+		align-items: center; /* Add this line */
+		padding-left: 1em;
+		padding-right: 1em;
+		margin: 50px auto;
+	}
+  
+
+  }
+  
+  @media screen and (max-height: 450px) and (max-width: 600px) {
+	.wrapper {
+		max-width: 300px;
+		min-width: 300px;
+		display: flex;
+		/* flex-wrap: wrap; */ /* Remove this line */
+		justify-content: space-between;
+		align-items: center; /* Add this line */
+		padding-left: 1em;
+		padding-right: 1em;
+		margin: 50px auto;
+	}
+
+  }
+  
+  @media screen and (max-width: 400px) {
+	.wrapper {
+		max-width: 300px;
+		min-width: 300px;
+		display: flex;
+		/* flex-wrap: wrap; */ /* Remove this line */
+		justify-content: space-between;
+		align-items: center; /* Add this line */
+		padding-left: 1em;
+		padding-right: 1em;
+		margin: 50px auto;
+	}
+
+  }
+  
+  @media screen and (max-height: 525px) {
+	.wrapper {
+		max-width: 300px;
+		min-width: 300px;
+		display: flex;
+		/* flex-wrap: wrap; */ /* Remove this line */
+		justify-content: space-between;
+		align-items: center; /* Add this line */
+		padding-left: 1em;
+		padding-right: 1em;
+		margin: 50px auto;
+	}
+
+  }
