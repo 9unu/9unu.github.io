@@ -503,13 +503,13 @@ a {
 
 /* Here follow all the media queries */
 @media screen and (max-width: 850px) {
-  .projects-wrapper {
+  /* .projects-wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     grid-gap: 10px;
-  }
+  } */
 
   .section {
     padding-left: 15px;
@@ -531,13 +531,13 @@ a {
 }
 
 @media screen and (max-width: 775px) {
-  .projects-wrapper {
+  /* .projects-wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     grid-gap: 10px;
-  }
+  } */
   .projects-grid {
     display: -ms-grid;
     display: grid;
@@ -598,13 +598,13 @@ a {
     font-size: 0.9rem;
     top: 3rem;
   }
-  .projects-wrapper {
+  /* .projects-wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     grid-gap: 10px;
-  }
+  } */
   .projects-grid {
     display: -ms-grid;
     display: grid;
@@ -639,13 +639,13 @@ a {
   .head {
     min-height: 525px;
   }
-  .projects-wrapper {
+  /* .projects-wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     grid-gap: 10px;
-  }
+  } */
   .projects-grid {
     display: -ms-grid;
     display: grid;
@@ -667,13 +667,13 @@ a {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
   }
-  .projects-wrapper {
+  /* .projects-wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     grid-gap: 10px;
-  }
+  } */
   .projects-grid {
     display: -ms-grid;
     display: grid;
@@ -697,13 +697,13 @@ a {
   .head-menu-wrap {
     bottom: 15px;
   }
-  .projects-wrapper {
+  /* .projects-wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     grid-gap: 10px;
-  }
+  } */
   .projects-grid {
     display: -ms-grid;
     display: grid;

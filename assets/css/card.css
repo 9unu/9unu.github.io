@@ -167,48 +167,6 @@
 		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
 		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
-	.card {
-		background-color: #fff; /* background color white */
-		margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
-		box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
-		}
-		
-		.card__padding {
-			padding: 1.6rem; /* inner margin */
-			padding-top: 0.8rem; /* top margin */
-		}
-		 
-		.card__image {
-		min-height: 100px; /* Minimum height 100 pixels */
-			background-color: #eee; /* background color light gray */
-			width: 100%; /* width 100% */
-			max-height: 180px; /* maximum height 180 pixels */
-		overflow: hidden; /* Hide overflow */
-		border-bottom: solid 1px lightgray; /* bottom border */
-		}
-		
-		.card__content {
-		position: relative; /* relative position */
-		}
-		
-		/* card meta */
-		.card__meta time {
-		font-size: 1rem; /* Font size 1rem */
-		color: #bbb; /* font color gray */
-			margin-left: 0.8rem; /* left margin */
-			float:right; /* Align right */
-		}
-		
-		/* card article */
-		.card__article a {
-		text-decoration: none; /* remove underscore */
-		color: #444; /* Font color dark gray */
-		transition: all 0.5s ease; /* Transition effect */
-		}
-		
-		.card__article a:hover {
-		color: #2980b9; /* Change font color when you hover the cursor */
-		}
 
 
   }
@@ -220,48 +178,6 @@
 		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
 		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
-	.card {
-		background-color: #fff; /* background color white */
-		margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
-		box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
-		}
-		
-		.card__padding {
-			padding: 1.6rem; /* inner margin */
-			padding-top: 0.8rem; /* top margin */
-		}
-		 
-		.card__image {
-		min-height: 100px; /* Minimum height 100 pixels */
-			background-color: #eee; /* background color light gray */
-			width: 100%; /* width 100% */
-			max-height: 180px; /* maximum height 180 pixels */
-		overflow: hidden; /* Hide overflow */
-		border-bottom: solid 1px lightgray; /* bottom border */
-		}
-		
-		.card__content {
-		position: relative; /* relative position */
-		}
-		
-		/* card meta */
-		.card__meta time {
-		font-size: 1rem; /* Font size 1rem */
-		color: #bbb; /* font color gray */
-			margin-left: 0.8rem; /* left margin */
-			float:right; /* Align right */
-		}
-		
-		/* card article */
-		.card__article a {
-		text-decoration: none; /* remove underscore */
-		color: #444; /* Font color dark gray */
-		transition: all 0.5s ease; /* Transition effect */
-		}
-		
-		.card__article a:hover {
-		color: #2980b9; /* Change font color when you hover the cursor */
-		}
 
   }
   
@@ -272,48 +188,6 @@
 		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
 		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
-	.card {
-		background-color: #fff; /* background color white */
-		margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
-		box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
-		}
-		
-		.card__padding {
-			padding: 1.6rem; /* inner margin */
-			padding-top: 0.8rem; /* top margin */
-		}
-		 
-		.card__image {
-		min-height: 100px; /* Minimum height 100 pixels */
-			background-color: #eee; /* background color light gray */
-			width: 100%; /* width 100% */
-			max-height: 180px; /* maximum height 180 pixels */
-		overflow: hidden; /* Hide overflow */
-		border-bottom: solid 1px lightgray; /* bottom border */
-		}
-		
-		.card__content {
-			display: flex;
-		}
-		
-		/* card meta */
-		.card__meta time {
-		font-size: 1rem; /* Font size 1rem */
-		color: #bbb; /* font color gray */
-			margin-left: 0.8rem; /* left margin */
-			float:right; /* Align right */
-		}
-		
-		/* card article */
-		.card__article a {
-		text-decoration: none; /* remove underscore */
-		color: #444; /* Font color dark gray */
-		transition: all 0.5s ease; /* Transition effect */
-		}
-		
-		.card__article a:hover {
-		color: #2980b9; /* Change font color when you hover the cursor */
-		}
   
 
   }
@@ -325,48 +199,6 @@
 		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
 		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
-	.card {
-		background-color: #fff; /* background color white */
-		margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
-		box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
-		}
-		
-		.card__padding {
-			padding: 1.6rem; /* inner margin */
-			padding-top: 0.8rem; /* top margin */
-		}
-		 
-		.card__image {
-		min-height: 100px; /* Minimum height 100 pixels */
-			background-color: #eee; /* background color light gray */
-			width: 100%; /* width 100% */
-			max-height: 180px; /* maximum height 180 pixels */
-		overflow: hidden; /* Hide overflow */
-		border-bottom: solid 1px lightgray; /* bottom border */
-		}
-		
-		.card__content {
-			display: flex;
-		}
-		
-		/* card meta */
-		.card__meta time {
-		font-size: 1rem; /* Font size 1rem */
-		color: #bbb; /* font color gray */
-			margin-left: 0.8rem; /* left margin */
-			float:right; /* Align right */
-		}
-		
-		/* card article */
-		.card__article a {
-		text-decoration: none; /* remove underscore */
-		color: #444; /* Font color dark gray */
-		transition: all 0.5s ease; /* Transition effect */
-		}
-		
-		.card__article a:hover {
-		color: #2980b9; /* Change font color when you hover the cursor */
-		}
 
   }
   
@@ -377,48 +209,6 @@
 		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
 		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
-	.card {
-		background-color: #fff; /* background color white */
-		margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
-		box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
-		}
-		
-		.card__padding {
-			padding: 1.6rem; /* inner margin */
-			padding-top: 0.8rem; /* top margin */
-		}
-		 
-		.card__image {
-		min-height: 100px; /* Minimum height 100 pixels */
-			background-color: #eee; /* background color light gray */
-			width: 100%; /* width 100% */
-			max-height: 180px; /* maximum height 180 pixels */
-		overflow: hidden; /* Hide overflow */
-		border-bottom: solid 1px lightgray; /* bottom border */
-		}
-		
-		.card__content {
-			display: flex;
-		}
-		
-		/* card meta */
-		.card__meta time {
-		font-size: 1rem; /* Font size 1rem */
-		color: #bbb; /* font color gray */
-			margin-left: 0.8rem; /* left margin */
-			float:right; /* Align right */
-		}
-		
-		/* card article */
-		.card__article a {
-		text-decoration: none; /* remove underscore */
-		color: #444; /* Font color dark gray */
-		transition: all 0.5s ease; /* Transition effect */
-		}
-		
-		.card__article a:hover {
-		color: #2980b9; /* Change font color when you hover the cursor */
-		}
 
   }
   
@@ -429,47 +219,5 @@
 		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
 		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
-	.card {
-background-color: #fff; /* background color white */
-margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
-box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
-}
-
-.card__padding {
-    padding: 1.6rem; /* inner margin */
-    padding-top: 0.8rem; /* top margin */
-}
- 
-.card__image {
-min-height: 100px; /* Minimum height 100 pixels */
-    background-color: #eee; /* background color light gray */
-    width: 100%; /* width 100% */
-    max-height: 180px; /* maximum height 180 pixels */
-overflow: hidden; /* Hide overflow */
-border-bottom: solid 1px lightgray; /* bottom border */
-}
-
-.card__content {
-	display: flex;
-}
-
-/* card meta */
-.card__meta time {
-font-size: 1rem; /* Font size 1rem */
-color: #bbb; /* font color gray */
-    margin-left: 0.8rem; /* left margin */
-    float:right; /* Align right */
-}
-
-/* card article */
-.card__article a {
-text-decoration: none; /* remove underscore */
-color: #444; /* Font color dark gray */
-transition: all 0.5s ease; /* Transition effect */
-}
-
-.card__article a:hover {
-color: #2980b9; /* Change font color when you hover the cursor */
-}
 
   }
