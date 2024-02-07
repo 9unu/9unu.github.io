@@ -62,7 +62,6 @@
     position: relative; /* relative position */
     flex: 1; /* Allow the content to take up remaining space */
     background-color: #eee; /* background color light gray for content side */
-    padding: 1.6rem; /* add padding for content area */
 }
 
 /* card meta */
