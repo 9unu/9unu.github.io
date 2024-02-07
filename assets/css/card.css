@@ -43,8 +43,8 @@
 }
 
 .card__padding {
-    /* padding: 1.6rem; inner margin */
-    /* padding-top: 0.8rem; top margin */
+    padding: 1.6rem; /* inner margin */
+    padding-top: 0.8rem; /* top margin */
 }
 
 .card__image {
