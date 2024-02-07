@@ -232,13 +232,13 @@
 		}
 		 
 		.card__image {
-			width: 100%; /* 이미지 너비를 100%로 설정 */
-			max-height: none; /* 최대 높이 제거 */
-			min-height: 180px; /* 이미지 최소 높이 지정 */
-			margin-bottom: 1.6rem; /* 이미지와 콘텐츠 사이의 여백 추가 */
-			border-bottom: none; /* 이미지 아래쪽 경계 제거 */
-			border-top: solid 1px lightgray; /* 이미지 위쪽 경계 추가 */
-		  }
+		min-height: 100px; /* Minimum height 100 pixels */
+			background-color: #eee; /* background color light gray */
+			width: 100%; /* width 100% */
+			max-height: 180px; /* maximum height 180 pixels */
+		overflow: hidden; /* Hide overflow */
+		border-bottom: solid 1px lightgray; /* bottom border */
+		}
 		
 		.card__content {
 		position: relative; /* relative position */
@@ -284,16 +284,16 @@
 		}
 		 
 		.card__image {
-			width: 100%; /* 이미지 너비를 100%로 설정 */
-			max-height: none; /* 최대 높이 제거 */
-			min-height: 180px; /* 이미지 최소 높이 지정 */
-			margin-bottom: 1.6rem; /* 이미지와 콘텐츠 사이의 여백 추가 */
-			border-bottom: none; /* 이미지 아래쪽 경계 제거 */
-			border-top: solid 1px lightgray; /* 이미지 위쪽 경계 추가 */
-		  }
+		min-height: 100px; /* Minimum height 100 pixels */
+			background-color: #eee; /* background color light gray */
+			width: 100%; /* width 100% */
+			max-height: 180px; /* maximum height 180 pixels */
+		overflow: hidden; /* Hide overflow */
+		border-bottom: solid 1px lightgray; /* bottom border */
+		}
 		
 		.card__content {
-		position: relative; /* relative position */
+			display: flex;
 		}
 		
 		/* card meta */
@@ -337,16 +337,16 @@
 		}
 		 
 		.card__image {
-			width: 100%; /* 이미지 너비를 100%로 설정 */
-			max-height: none; /* 최대 높이 제거 */
-			min-height: 180px; /* 이미지 최소 높이 지정 */
-			margin-bottom: 1.6rem; /* 이미지와 콘텐츠 사이의 여백 추가 */
-			border-bottom: none; /* 이미지 아래쪽 경계 제거 */
-			border-top: solid 1px lightgray; /* 이미지 위쪽 경계 추가 */
-		  }
+		min-height: 100px; /* Minimum height 100 pixels */
+			background-color: #eee; /* background color light gray */
+			width: 100%; /* width 100% */
+			max-height: 180px; /* maximum height 180 pixels */
+		overflow: hidden; /* Hide overflow */
+		border-bottom: solid 1px lightgray; /* bottom border */
+		}
 		
 		.card__content {
-		position: relative; /* relative position */
+			display: flex;
 		}
 		
 		/* card meta */
@@ -389,16 +389,16 @@
 		}
 		 
 		.card__image {
-			width: 100%; /* 이미지 너비를 100%로 설정 */
-			max-height: none; /* 최대 높이 제거 */
-			min-height: 180px; /* 이미지 최소 높이 지정 */
-			margin-bottom: 1.6rem; /* 이미지와 콘텐츠 사이의 여백 추가 */
-			border-bottom: none; /* 이미지 아래쪽 경계 제거 */
-			border-top: solid 1px lightgray; /* 이미지 위쪽 경계 추가 */
-		  }
+		min-height: 100px; /* Minimum height 100 pixels */
+			background-color: #eee; /* background color light gray */
+			width: 100%; /* width 100% */
+			max-height: 180px; /* maximum height 180 pixels */
+		overflow: hidden; /* Hide overflow */
+		border-bottom: solid 1px lightgray; /* bottom border */
+		}
 		
 		.card__content {
-		position: relative; /* relative position */
+			display: flex;
 		}
 		
 		/* card meta */
@@ -430,46 +430,46 @@
 		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
 	.card {
-		background-color: #fff; /* background color white */
-		margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
-		box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
-		}
-		
-		.card__padding {
-			padding: 1.6rem; /* inner margin */
-			padding-top: 0.8rem; /* top margin */
-		}
-		 
-		.card__image {
-			width: 100%; /* 이미지 너비를 100%로 설정 */
-			max-height: none; /* 최대 높이 제거 */
-			min-height: 180px; /* 이미지 최소 높이 지정 */
-			margin-bottom: 1.6rem; /* 이미지와 콘텐츠 사이의 여백 추가 */
-			border-bottom: none; /* 이미지 아래쪽 경계 제거 */
-			border-top: solid 1px lightgray; /* 이미지 위쪽 경계 추가 */
-		  }
-		
-		.card__content {
-		position: relative; /* relative position */
-		}
-		
-		/* card meta */
-		.card__meta time {
-		font-size: 1rem; /* Font size 1rem */
-		color: #bbb; /* font color gray */
-			margin-left: 0.8rem; /* left margin */
-			float:right; /* Align right */
-		}
-		
-		/* card article */
-		.card__article a {
-		text-decoration: none; /* remove underscore */
-		color: #444; /* Font color dark gray */
-		transition: all 0.5s ease; /* Transition effect */
-		}
-		
-		.card__article a:hover {
-		color: #2980b9; /* Change font color when you hover the cursor */
-		}
+background-color: #fff; /* background color white */
+margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
+box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
+}
+
+.card__padding {
+    padding: 1.6rem; /* inner margin */
+    padding-top: 0.8rem; /* top margin */
+}
+ 
+.card__image {
+min-height: 100px; /* Minimum height 100 pixels */
+    background-color: #eee; /* background color light gray */
+    width: 100%; /* width 100% */
+    max-height: 180px; /* maximum height 180 pixels */
+overflow: hidden; /* Hide overflow */
+border-bottom: solid 1px lightgray; /* bottom border */
+}
+
+.card__content {
+	display: flex;
+}
+
+/* card meta */
+.card__meta time {
+font-size: 1rem; /* Font size 1rem */
+color: #bbb; /* font color gray */
+    margin-left: 0.8rem; /* left margin */
+    float:right; /* Align right */
+}
+
+/* card article */
+.card__article a {
+text-decoration: none; /* remove underscore */
+color: #444; /* Font color dark gray */
+transition: all 0.5s ease; /* Transition effect */
+}
+
+.card__article a:hover {
+color: #2980b9; /* Change font color when you hover the cursor */
+}
 
   }
