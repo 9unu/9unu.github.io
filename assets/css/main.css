@@ -516,7 +516,7 @@ a {
     padding-right: 15px;
   }
   
-  /* .projects-grid {
+  .projects-grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto;
@@ -527,7 +527,7 @@ a {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-  } */
+  }
 }
 
 @media screen and (max-width: 775px) {
@@ -538,7 +538,7 @@ a {
         grid-template-columns: 50% 50%;
     grid-gap: 10px;
   } */
-  /* .projects-grid {
+  .projects-grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto;
@@ -549,7 +549,7 @@ a {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-  } */
+  }
   .project-technologies {
     -ms-grid-columns: auto auto auto;
         grid-template-columns: auto auto auto;
@@ -605,7 +605,7 @@ a {
         grid-template-columns: 50% 50%;
     grid-gap: 10px;
   } */
-  /* .projects-grid {
+  .projects-grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto;
@@ -616,7 +616,7 @@ a {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-  } */
+  }
   .projects-grid {
     -ms-grid-columns: auto;
         grid-template-columns: auto;
@@ -646,7 +646,7 @@ a {
         grid-template-columns: 50% 50%;
     grid-gap: 10px;
   } */
-  /* .projects-grid {
+  .projects-grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto;
@@ -657,7 +657,7 @@ a {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-  } */
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -674,7 +674,7 @@ a {
         grid-template-columns: 50% 50%;
     grid-gap: 10px;
   } */
-  /* .projects-grid {
+  .projects-grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto;
@@ -685,7 +685,7 @@ a {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-  } */
+  }
 }
 
 @media screen and (max-height: 525px) {
@@ -704,7 +704,7 @@ a {
         grid-template-columns: 50% 50%;
     grid-gap: 10px;
   } */
-  /* .projects-grid {
+  .projects-grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto;
@@ -715,6 +715,6 @@ a {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-  } */
+  }
 }
 
