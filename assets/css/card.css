@@ -67,7 +67,7 @@
 /* card meta */
 .card__meta time {
     font-size: 1rem; /* Font size 1rem */
-    color: #bbb; /* font color gray */
+    color: white; /* font color gray */
     margin-left: 0.8rem; /* left margin */
     float: right; /* Align right */
 }
