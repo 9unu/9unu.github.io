@@ -37,7 +37,7 @@
  */
 
  .card {
-    background-color: #fff; /* background color white */
+    background-color: #eee; /* background color light gray for the whole card */
     margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
     box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
     display: flex; /* Use flexbox to control layout */
@@ -50,6 +50,7 @@
 
 .card__image {
     min-height: 100px; /* Minimum height 100 pixels */
+    background-color: #fff; /* background color white for image side */
     width: 180px; /* Set width of the image */
     max-height: 180px; /* maximum height 180 pixels */
     overflow: hidden; /* Hide overflow */
@@ -60,7 +61,7 @@
 .card__content {
     position: relative; /* relative position */
     flex: 1; /* Allow the content to take up remaining space */
-    background-color: #eee; /* background color light gray */
+    background-color: #eee; /* background color light gray for content side */
     padding: 1.6rem; /* add padding for content area */
 }
 
