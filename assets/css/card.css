@@ -48,7 +48,7 @@
 }
 
 .card__image {
-    min-height: 150px; /* Minimum height 100 pixels */
+    min-height: 50px; /* Minimum height 100 pixels */
     background-color: white; /* background color white for image side */
     width: 180px; /* Set width of the image */
     overflow: hidden; /* Hide overflow */
