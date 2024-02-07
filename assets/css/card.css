@@ -1,6 +1,6 @@
 .wrapper {
-    max-width: 50%;
-	min-width: 50%;
+    max-width: 75%;
+	min-width: 75%;
     display: flex;
     /* flex-wrap: wrap; */ /* Remove this line */
     justify-content: space-between;
@@ -37,7 +37,7 @@
  */
 
  .card {
-    background-color: #ffffffb3; /* background color light gray for the whole card */
+    background-color: #ffffff00; /* background color light gray for the whole card */
     margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
     box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
     display: flex; /* Use flexbox to control layout */
@@ -54,7 +54,7 @@
     width: 180px; /* Set width of the image */
     overflow: hidden; /* Hide overflow */
     border-right: solid 1px white; /* right border */
-    margin-right: 1.6rem; /* Add margin to the right to create space between image and content */
+    /* margin-right: 1.6rem; Add margin to the right to create space between image and content */
 }
 
 .card__content {
