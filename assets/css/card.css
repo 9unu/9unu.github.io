@@ -54,7 +54,7 @@
     width: 180px; /* Set width of the image */
     max-height: 180px; /* maximum height 180 pixels */
     overflow: hidden; /* Hide overflow */
-    border-right: solid 1px #fff; /* right border */
+    border-right: solid 1px white; /* right border */
     margin-right: 1.6rem; /* Add margin to the right to create space between image and content */
 }
 
