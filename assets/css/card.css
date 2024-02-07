@@ -47,17 +47,32 @@
     padding-top: 0.8rem; /* 상단 여백 */
 }
  
-.card__image {
-	min-height: 100px; /* 최소 높이 100픽셀 */
-    background-color: #eee; /* 배경색 연회색 */
-    width: 100%; /* 너비 100% */
-    max-height: 180px; /* 최대 높이 180픽셀 */
-	overflow: hidden; /* 넘치는 부분 숨김 */
-	border-bottom: solid 1px lightgray; /* 아래쪽 테두리 */
+/* .card__image {
+	min-height: 100px; 
+    background-color: #eee; 
+    width: 100%; 
+    max-height: 180px; 
+	overflow: hidden; 
+	border-bottom: solid 1px lightgray; 
 }
 
 .card__content {
-	position: relative; /* 상대 위치 */
+	position: relative; 
+} */
+
+.card__image {
+    min-height: 100px; /* Minimum height 100 pixels */
+    background-color: #eee; /* background color light gray */
+    width: 180px; /* Set width of the image */
+    max-height: 180px; /* maximum height 180 pixels */
+    overflow: hidden; /* Hide overflow */
+    border-right: solid 1px lightgray; /* right border */
+    margin-right: 1.6rem; /* Add margin to the right to create space between image and content */
+}
+
+.card__content {
+    position: relative; /* relative position */
+    display: flex; /* Add flexbox */
 }
 
 /* card meta */
