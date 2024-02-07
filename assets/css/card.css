@@ -1,6 +1,6 @@
 .wrapper {
-    max-width: 725px auto;
-	min-width: 725px auto;
+    max-width: 50%;
+	min-width: 50%;
     display: flex;
     /* flex-wrap: wrap; */ /* Remove this line */
     justify-content: space-between;
