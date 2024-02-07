@@ -61,7 +61,7 @@
 .card__content {
     position: relative; /* relative position */
     flex: 1; /* Allow the content to take up remaining space */
-    background-color: #eee; /* background color light gray for content side */
+    background-color: white; /* background color light gray for content side */
 }
 
 /* card meta */
