@@ -1,5 +1,5 @@
 .wrapper {
-    max-width: 400px; /* 최대 너비 400픽셀 */
+    max-width: 800px; /* 최대 너비 400픽셀 */
     display: flex; /* Flex 표시 */
     flex-wrap: wrap; /* Flex 랩 */
     justify-content: space-between; /* 요소 사이 간격 균등하게 배치 */
