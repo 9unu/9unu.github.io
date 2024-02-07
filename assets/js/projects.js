@@ -31,16 +31,17 @@ let render_projects = (slug) => {
             pdf: 'assets/images/Short-Form 논문1.pdf' // Add the PDF link here
         },
         {
-            image: 'assets/images/fat.jpg',
+            image: 'assets/images/fat.png',
             link: 'https://github.com/9unu/3-1-project_Remaster',
             title: 'Fat Prediction Model (Normal, Overweight, Obesity)',
             // demo: false,
             technologies: ['Python'],
             description: "국민건강영양조사 데이터 기반 비만도 분류 머신러닝 모델 개발",
-            categories: ['featured','security']
+            categories: ['featured','security'],
+            pdf: 'assets/images/Short-Form 논문1.pdf' // Add the PDF link here
         },        
         {
-            image: 'assets/images/파이썬으로 시작하는 캐글.jpg',
+            image: 'assets/images/파이썬으로 시작하는 캐글.png',
             link: 'https://github.com/9unu/Kaggle_titanic',
             title: '[Kaggle] Titanic',
             // demo:  false,
@@ -49,7 +50,7 @@ let render_projects = (slug) => {
             categories: ['diy']
         },
         {
-            image: 'assets/images/housing-costs-story.jpg',
+            image: 'assets/images/housing-costs-story.png',
             link: 'https://github.com/9unu/Kaggle_BostonHousePrices',
             title: '[Kaggle] Boston House Price',
             // demo: false,
