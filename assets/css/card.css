@@ -208,14 +208,23 @@
 		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
 		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
-	.card__image {
-		/* min-height: 50px; Minimum height 100 pixels */
-		background-color: white; /* background color white for image side */
-		width: 130px; /* Set width of the image */
-		overflow: hidden; /* Hide overflow */
-		border-right: solid 1px white; /* right border */
-		/* margin-right: 1.6rem; Add margin to the right to create space between image and content */
-	}
+	.card {
+		background-color: #fff; /* background color white */
+		margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
+		box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
+		}
+		.card__image {
+			min-height: 100px; /* Minimum height 100 pixels */
+				background-color: #eee; /* background color light gray */
+				width: 100%; /* width 100% */
+				max-height: 180px; /* maximum height 180 pixels */
+			overflow: hidden; /* Hide overflow */
+			border-bottom: solid 1px lightgray; /* bottom border */
+			}
+			
+			.card__content {
+			position: relative; /* relative position */
+			}
 
   }
   
@@ -226,14 +235,23 @@
 		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
 		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
-	.card__image {
-		/* min-height: 50px; Minimum height 100 pixels */
-		background-color: white; /* background color white for image side */
-		width: 130px; /* Set width of the image */
-		overflow: hidden; /* Hide overflow */
-		border-right: solid 1px white; /* right border */
-		/* margin-right: 1.6rem; Add margin to the right to create space between image and content */
-	}
+	.card {
+		background-color: #fff; /* background color white */
+		margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
+		box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
+		}
+		.card__image {
+			min-height: 100px; /* Minimum height 100 pixels */
+				background-color: #eee; /* background color light gray */
+				width: 100%; /* width 100% */
+				max-height: 180px; /* maximum height 180 pixels */
+			overflow: hidden; /* Hide overflow */
+			border-bottom: solid 1px lightgray; /* bottom border */
+			}
+			
+			.card__content {
+			position: relative; /* relative position */
+			}
 
   }
   
@@ -244,13 +262,22 @@
 		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
 		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
 	}
-	.card__image {
-		/* min-height: 50px; Minimum height 100 pixels */
-		background-color: white; /* background color white for image side */
-		width: 130px; /* Set width of the image */
-		overflow: hidden; /* Hide overflow */
-		border-right: solid 1px white; /* right border */
-		/* margin-right: 1.6rem; Add margin to the right to create space between image and content */
-	}
+	.card {
+		background-color: #fff; /* background color white */
+		margin-bottom: 1.6rem; /* Bottom margin 1.6rem */
+		box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24); /* shadow */
+		}
+		.card__image {
+			min-height: 100px; /* Minimum height 100 pixels */
+				background-color: #eee; /* background color light gray */
+				width: 100%; /* width 100% */
+				max-height: 180px; /* maximum height 180 pixels */
+			overflow: hidden; /* Hide overflow */
+			border-bottom: solid 1px lightgray; /* bottom border */
+			}
+			
+			.card__content {
+			position: relative; /* relative position */
+			}
 
   }
