@@ -149,13 +149,13 @@ img {
   text-align: center;
 }
 
-.projects-wrapper {
+/* .projects-wrapper {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
   grid-gap: 10px;
-}
+} */
 
 .full-width {
   width: 100%;
