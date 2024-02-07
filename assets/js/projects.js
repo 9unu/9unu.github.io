@@ -26,8 +26,7 @@ let render_projects = (slug) => {
             title: '[KSC] A Study of Short-Form Video Watching Patterns and a Predictive Model',
             // demo: false,
             technologies: ['Python'],
-            description: "[한국정보과학회] Short-From 영상 시청 패턴 분석 및 영상 시청 여부 예측 연구 
-                [장려상]",
+            description: "[한국정보과학회] Short-From 영상 시청 패턴 분석 및 영상 시청 여부 예측 연구     [장려상]",
             categories: ['featured','webdev'],
             pdf: 'assets/images/Short-Form 논문1.pdf' // Add the PDF link here
         },
