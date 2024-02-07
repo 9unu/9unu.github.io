@@ -50,7 +50,6 @@
 
 .card__image {
     min-height: 100px; /* Minimum height 100 pixels */
-    background-color: #eee; /* background color light gray */
     width: 180px; /* Set width of the image */
     max-height: 180px; /* maximum height 180 pixels */
     overflow: hidden; /* Hide overflow */
@@ -61,6 +60,8 @@
 .card__content {
     position: relative; /* relative position */
     flex: 1; /* Allow the content to take up remaining space */
+    background-color: #eee; /* background color light gray */
+    padding: 1.6rem; /* add padding for content area */
 }
 
 /* card meta */
