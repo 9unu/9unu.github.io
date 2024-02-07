@@ -163,7 +163,7 @@
 /* Here follow all the media queries */
 @media screen and (max-width: 850px) {
 	.wrapper {
-		max-width: 400px; /* 최대 너비 400픽셀 */
+		max-width: 700px; /* 최대 너비 400픽셀 */
 		/* margin: 50px auto; */ /* 주석 처리: 상하 여백 50픽셀, 가운데 정렬 */
 		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
 		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
@@ -174,7 +174,7 @@
   
   @media screen and (max-width: 775px) {
 	.wrapper {
-		max-width: 400px; /* 최대 너비 400픽셀 */
+		max-width: 600px; /* 최대 너비 400픽셀 */
 		/* margin: 50px auto; */ /* 주석 처리: 상하 여백 50픽셀, 가운데 정렬 */
 		padding-left: 1em; /* 왼쪽 안쪽 여백 1em */
 		padding-right: 1em; /* 오른쪽 안쪽 여백 1em */
