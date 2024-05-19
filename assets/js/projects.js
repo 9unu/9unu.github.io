@@ -31,7 +31,7 @@ let render_projects = (slug) => {
             pdf: 'assets/images/Short-Form 논문1.pdf' // Add the PDF link here
         },
         {
-            image: 'assets/images/hugging_face.png',
+            image: 'assets/images/hugging_face.jpg',
             link: 'https://huggingface.co/9unu',
             title: 'Fat Prediction Model (Normal, Overweight, Obesity)',
             // demo: false,
