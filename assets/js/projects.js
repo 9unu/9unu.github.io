@@ -16,7 +16,7 @@ let render_projects = (slug) => {
             title: '[Data Science Competition] Traffic congestion classification',
             // demo: false,
             technologies: ['Python'],
-            description: "경기도 자율주행센터 데이터 활용 경진대회 - 도로별 교통 혼잡도 분류 [금상]",
+            description: "경기도 자율주행센터 데이터 활용 경진대회\n도로별 교통 혼잡도 분류 [금상]",
             categories: ['featured','native'],
             pdf: 'assets/images/last_report.pdf' // Add the PDF link here
         },
@@ -36,7 +36,7 @@ let render_projects = (slug) => {
             title: 'Fat Prediction Model (Normal, Overweight, Obesity)',
             // demo: false,
             technologies: ['Python'],
-            description: "카카오톡 말투 변환 AI 역공학 설계 (상냥체, 정중체 개발 및 Hugging Face 배포)",
+            description: "카카오톡 말투 변환 AI 역공학 설계\n(상냥체, 정중체 개발 및 Hugging Face 배포)",
             categories: ['featured','security'],
         }, 
         {
