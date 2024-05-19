@@ -31,6 +31,15 @@ let render_projects = (slug) => {
             pdf: 'assets/images/Short-Form 논문1.pdf' // Add the PDF link here
         },
         {
+            image: 'assets/images/hugging_face.png',
+            link: 'https://huggingface.co/9unu',
+            title: 'Fat Prediction Model (Normal, Overweight, Obesity)',
+            // demo: false,
+            technologies: ['Python'],
+            description: "카카오톡 말투 변환 AI 역공학 설계 (상냥체, 정중체 개발 및 Hugging Face 배포)",
+            categories: ['featured','security'],
+        }, 
+        {
             image: 'assets/images/fat.png',
             link: 'https://github.com/9unu/3-1-project_Remaster',
             title: 'Fat Prediction Model (Normal, Overweight, Obesity)',
