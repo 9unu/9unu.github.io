@@ -31,7 +31,7 @@ let render_projects = (slug) => {
             pdf: 'assets/images/Short-Form 논문1.pdf' // Add the PDF link here
         },
         {
-            image: 'assets/images/hugging_face.jpg',
+            image: 'assets/images/hugging_face.png',
             link: 'https://huggingface.co/9unu',
             title: 'Fat Prediction Model (Normal, Overweight, Obesity)',
             // demo: false,
@@ -46,7 +46,7 @@ let render_projects = (slug) => {
             // demo: false,
             technologies: ['Python'],
             description: "국민건강영양조사 데이터 기반 비만도 분류 머신러닝 모델 개발",
-            categories: ['featured','security'],
+            categories: ['security'],
         },        
         {
             image: 'assets/images/파이썬으로 시작하는 캐글.png',
