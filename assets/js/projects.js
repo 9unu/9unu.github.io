@@ -33,7 +33,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/hugging_face.png',
             link: 'https://huggingface.co/9unu',
-            title: 'Fat Prediction Model (Normal, Overweight, Obesity)',
+            title: '[hugging face] speech translation model (formal, gentle)',
             // demo: false,
             technologies: ['Python'],
             description: "카카오톡 말투 변환 AI 역공학 설계\n(상냥체, 정중체 변환기 개발 및 Hugging Face 배포)",
